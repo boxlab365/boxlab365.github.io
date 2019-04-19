@@ -4,8 +4,12 @@
     <title><![CDATA[自媒体·你应该知道的东西]]></title>
     <url>%2F2019%2F04%2F14%2F%E8%87%AA%E5%AA%92%E4%BD%93%C2%B7%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%9C%E8%A5%BF%2F</url>
     <content type="text"><![CDATA[打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到标签下，插入如下代码：// Custom styles.code {color: #ff7600;background: #fbf7f8;margin: 2px;}// 大代码块的自定义样式.highlight, pre {margin: 5px 0;padding: 5px;border-radius: 3px;}.highlight, code, pre {border: 1px solid #d6d6d6;}]]></content>
+      <categories>
+        <category>新媒体学习</category>
+        <category>自媒体</category>
+      </categories>
       <tags>
-        <tag>-自媒体 -学习记录</tag>
+        <tag>自媒体</tag>
       </tags>
   </entry>
   <entry>

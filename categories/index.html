@@ -116,7 +116,7 @@ history.back();
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="暮年Blog">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-15T14:55:26.602Z">
+<meta property="og:updated_time" content="2019-04-19T04:14:58.618Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
 
@@ -498,7 +498,24 @@ history.back();
       <div class="post-body">
         
         
-          
+          <div class="category-all-page">
+            <div class="category-all-title">
+              
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              目前共计 2 个分类
+            </div>
+            <div class="category-all">
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/新媒体学习/">新媒体学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/自媒体/">自媒体</a><span class="category-list-count">1</span></li></ul>
+            </div>
+          </div>
         
       </div>
       
@@ -566,11 +583,34 @@ history.back();
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
 
               
                 
                 
                 <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
                   
                     
                     
@@ -582,7 +622,7 @@ history.back();
                     
                     <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
@@ -758,6 +798,14 @@ function setzero(i){
 }
 show_date_time();
 </script>
+
+<div class="powered-by">
+	<i class="fa fa-user-md"></i>
+	
+	
+	
+	
+</div>
         
 
 
@@ -1227,6 +1275,41 @@ show_date_time();
   
 
   
+<script>
+  $('.highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+        if (result) $(this).text('复制成功');
+        else $(this).text('复制失败');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
 
   
 
