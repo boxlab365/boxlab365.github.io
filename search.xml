@@ -4,9 +4,12 @@
     <title><![CDATA[自媒体·你应该知道的东西]]></title>
     <url>%2F2019%2F04%2F14%2F%E8%87%AA%E5%AA%92%E4%BD%93%C2%B7%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%9C%E8%A5%BF%2F</url>
     <content type="text"><![CDATA[打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到标签下，插入如下代码：// Custom styles.code {color: #ff7600;background: #fbf7f8;margin: 2px;}// 大代码块的自定义样式.highlight, pre {margin: 5px 0;padding: 5px;border-radius: 3px;}.highlight, code, pre {border: 1px solid #d6d6d6;}]]></content>
+      <tags>
+        <tag>-自媒体 -学习记录</tag>
+      </tags>
   </entry>
   <entry>
-    <title><![CDATA[text-2019]]></title>
+    <title><![CDATA[四月 一场秋雨]]></title>
     <url>%2F2019%2F04%2F12%2Ftext-2019%2F</url>
     <content type="text"><![CDATA[又是九月，又是一场秋雨 转眼间，一年已经过去了。人生何其短暂，奔跑在人生的赛道上，我们没有时间去彷徨，去感伤，我们能做的只有不停地奔跑。只有奔跑，两年后，我们才不会后悔，只有奔跑，我们才会收获人生的果实。 绚烂，夏花 高中，一个熟悉而又陌生的词语，当你启唇吟咏这个词语时，你是否会有心动的感觉？答案肯定的。高中，一个丰满的词语，在高中，我们可以感受到的东西有太多太多了，有家长的唠叨，老师的教导，同学的嬉闹，有上课前的“交响乐”，有上课时的小纸条，当然，最不能忘记的还是那一张张白如雪的卷子在你面前舞蹈，高中，人生中的一场盛宴，每一道菜，我们都要细细品尝，甜，与同学在一起的欢愉，如丝滑般的巧克力在口中慢慢融化，酸，汗水与泪水交织的重压，似柠檬汁的涩酸，苦，深夜的点灯苦读，是一杯香醇却又苦涩的咖啡，辣，鲜红的成绩，那味道堪比传奇的“老干妈”。品尝种种味道后，你的心是否会有些豁达？这就是绚烂如夏花的高中。 淡静，秋波 高中，需要一颗安静的心，它必须处事不惊，它必须静默下来，如苍天大树那静默的根，夜晚，你必须学会独处，坐在桌子旁，一摞题目静静地等待着你，墙壁是静的，昏暗的灯光是静的，心也是静的，只有你的思绪在不停地跳动着，时间，流水般的过去，时针，滴滴答答滴滴地转了一圈又一圈，洗漱，关灯，呼吸也是静的，梦也是静的，一切都进入了静的世界，在高中，你必须稳如泰山，每一个石块，每一道石缝，每一个细节，都是天衣无缝的配合与交结，才能使你经得起长期风雨的侵袭，才能让你屹立于时间的流水中而不被腐蚀，学习一棵古树吧，不论是置身在庭院，还是独立于荒野，无论是多么暴怒的风，还是如何扰人的雨，都不为其蛊惑，心，如静默的根。 又是九月，秋风带走了秋雨。百度一下 也不知道：www.baidu.com]]></content>
       <tags>
@@ -17,5 +20,8 @@
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F04%2F12%2Fhello-world%2F</url>
     <content type="text"><![CDATA[This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Add copy button on codeblock copy_button:copy enable: true #是否开启复制功能 Show text copy result show_result: true #是否显示提示的复制结果]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
