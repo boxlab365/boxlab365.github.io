@@ -1817,7 +1817,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffb8a8;
+  background: #dd82f2;
 }
 .feed-link,
 .chat {
@@ -2902,4 +2902,9 @@ ul.breadcrumb li+li:last-child {
   height: 2px;
   background: #ccc;
   text-align: center;
+}
+@media (max-width: 767px) {
+  #live2dcanvas {
+    display: none;
+  }
 }
